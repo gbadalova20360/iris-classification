@@ -1,15 +1,18 @@
 # Iris Classification with Pipeline and GridSearch
 
 ## About the Project
-This project focuses on classifying iris flower species using machine learning. The goal was to build a clean and reusable pipeline and apply hyperparameter tuning.
+This project focuses on classifying iris flower species using machine learning. While the dataset is simple, the goal was to build a clean and structured machine learning workflow using advanced techniques.
+
+## Dataset
+The dataset contains measurements of iris flowers such as sepal length, sepal width, petal length, and petal width, which are used to classify the species.
 
 ## What I Did
-- Built a machine learning pipeline  
-- Applied preprocessing and scaling  
+- Built a complete machine learning pipeline  
+- Applied feature scaling inside the pipeline  
 - Used GridSearchCV for hyperparameter tuning  
-- Evaluated model performance  
+- Evaluated models using cross-validation  
 
-## Models Used
+## Model Used
 - K-Nearest Neighbors  
 
 ## Techniques
@@ -17,8 +20,12 @@ This project focuses on classifying iris flower species using machine learning. 
 - GridSearchCV  
 
 ## Results
-The models achieved strong performance, and GridSearch helped optimize hyperparameters effectively.
+The models achieved high accuracy. More importantly, this project demonstrates how to properly structure a machine learning workflow and optimize models using systematic tuning.
 
+## Tools & Technologies
+- Python  
+- scikit-learn  
+- Pandas
 
 ## Notes
-This project helped to understand how to structure ML workflows and improve model performance using proper techniques.
+This project focuses on building clean and reusable ML pipelines rather than just training models.
